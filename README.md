@@ -1,16 +1,15 @@
-# Vardiyam — Gizlilik Politikası
+# Vardiyam — Privacy Policy
 
-Vardiyam (`com.vardiyam`) için Türkçe ve İngilizce gizlilik politikası, veri silme açıklamaları ve destek bilgileri.
+Privacy policy, data deletion information, and support details for Vardiyam (`com.vardiyam`).
 
-- Gizlilik politikası: https://furkanbicak.github.io/vardiyam-policy/
-- English: https://furkanbicak.github.io/vardiyam-policy/#en
-- Destek / Support: https://furkanbicak.github.io/vardiyam-policy/#support
-- Destek talepleri: https://github.com/furkanbicak/vardiyam-policy/issues
+- Privacy policy: https://furkanbicak.github.io/vardiyam-policy/
+- Support: https://furkanbicak.github.io/vardiyam-policy/#support
+- Support issues: https://github.com/furkanbicak/vardiyam-policy/issues
 
-## Yayınlama
+## Publishing
 
-Sayfa, bağımlılık ve derleme gerektirmeyen tek bir `index.html` dosyasıdır. GitHub Pages, `main` dalının kök dizininden yayımlar. `.nojekyll` Jekyll işlemesini kapatır.
+This is a single English `index.html` page with the same layout, typography, and numbered section format as https://furkanbicak.github.io/pmp-exam-policy/. It requires no dependencies or build step.
 
-Metni güncellemek için `index.html` dosyasını düzenleyip `main` dalına push edin. Türkçe ve İngilizce bölümleri birlikte güncelleyin; uygulamanın veri davranışı değiştiğinde son güncelleme tarihini yenileyin.
+GitHub Pages publishes the root of the `main` branch. `.nojekyll` disables Jekyll processing. Edit `index.html` and push to `main` to update the page. Review the policy whenever app data practices change and update the effective date.
 
-Bu repo yalnızca herkese açık politika sayfasını içerir; mobil uygulamanın kaynak kodunu veya kullanıcı verilerini içermez.
+This repository contains only the public policy page, not the mobile app's source code or user data.
