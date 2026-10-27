@@ -29,7 +29,7 @@ margin: 0 auto;
 <li>Shift patterns and history, daily schedule changes, duties, events, notes, and leave records</li>
 <li>Your selected city or district and its center coordinates for weather forecasts</li>
 <li>Reminder settings, local notification identifiers, and the last backup time</li>
-<li>Technical information processed by the Google Mobile Ads SDK in the Android app, as explained in Section 6</li>
+<li>Technical information processed by the Google Mobile Ads SDK in the Android and iOS apps, as explained in Section 6</li>
 </ul>
 
 <h2>2. How Your Data Is Stored</h2>
@@ -59,7 +59,7 @@ margin: 0 auto;
 <li>show weather forecasts for your selected city or district</li>
 <li>schedule local shift and event reminders when you grant notification permission</li>
 <li>export or restore backup files when you request it</li>
-<li>display banner advertisements in the Android app, subject to the applicable privacy choices</li>
+<li>display banner advertisements in the Android and iOS apps, subject to the applicable privacy choices</li>
 </ul>
 <p>Reminders are scheduled locally on your device; no remote notification server is used. Notification titles and contents may appear on your lock screen depending on your device settings. Core shift and record features work offline; weather requires an internet connection.</p>
 
@@ -71,15 +71,16 @@ margin: 0 auto;
 <p>When restoring a backup, the app reads the file you select through the system file picker; it does not automatically scan your files.</p>
 
 <h2>6. Tracking and Advertising</h2>
-<p>The Android app displays banner advertisements using Google AdMob and the Google Mobile Ads SDK. The SDK may collect and share IP addresses (which may be used to estimate general location), advertising and device identifiers, app and ad interaction information, and diagnostic information for advertising, measurement, and fraud prevention. We do not add your name, birth date, shift schedules, notes, leave records, or selected weather location to ad requests.</p>
+<p>The Android and iOS apps display banner advertisements using Google AdMob and the Google Mobile Ads SDK. The SDK may collect and share IP addresses (which may be used to estimate general location), advertising and device identifiers, app and ad interaction information, and diagnostic information for advertising, measurement, and fraud prevention. We do not add your name, birth date, shift schedules, notes, leave records, or selected weather location to ad requests.</p>
 <p>The app requests non-personalized ads. Non-personalized ads can still involve identifiers, local storage, measurement, and other technical data processing; they do not mean that no information is collected.</p>
-<p>Google's User Messaging Platform (UMP) checks consent information at app startup and presents a consent form when required. Ads are requested only when UMP indicates that the app can request them. Where required, you can revisit your choices through Özlük → Ayarlar → Hakkında ve gizlilik → Reklam gizlilik seçenekleri (Profile → Settings → About and privacy → Ad privacy options). These options are displayed when UMP requires a privacy-options entry point. You can also manage your advertising ID through Android device settings.</p>
-<p>The app does not include in-app purchases or a separate product analytics service. The current iOS and web versions do not initialize the advertising SDK.</p>
+<p>Google's User Messaging Platform (UMP) checks consent information at app startup and presents a consent form when required. Ads are requested only when UMP indicates that the app can request them. Where required, you can revisit your choices through Özlük → Ayarlar → Hakkında ve gizlilik → Reklam gizlilik seçenekleri (Profile → Settings → About and privacy → Ad privacy options). These options are displayed when UMP requires a privacy-options entry point. You can also manage your advertising ID through Android device settings. On iOS, where appropriate after the UMP flow, the app requests App Tracking Transparency (ATT) authorization before initializing ads. If you allow tracking, Google may use the advertising identifier for advertising measurement and fraud prevention; the app still requests non-personalized ads. You can use Vardiyam without allowing tracking. If you decline, iOS restricts access to the advertising identifier. You can change tracking permission in iOS Settings → Privacy &amp; Security → Tracking.</p>
+<p>The app does not include in-app purchases or a separate product analytics service. The web version does not initialize the advertising SDK.</p>
 <p>Google's practices are described in its own documentation:</p>
 <ul>
 <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
 <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a></li>
 <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">https://developers.google.com/admob/android/privacy/play-data-disclosure</a></li>
+<li><a href="https://developers.google.com/admob/ios/privacy/data-disclosure" target="_blank" rel="noopener noreferrer">https://developers.google.com/admob/ios/privacy/data-disclosure</a></li>
 </ul>
 
 <h2>7. Data Retention</h2>
@@ -94,7 +95,7 @@ margin: 0 auto;
 <li>delete your notes and records</li>
 <li>reset app records using Özlük → Ayarlar → Tüm verileri sıfırla (Profile → Settings → Reset all data)</li>
 <li>manage notification permissions and lock-screen visibility through device settings</li>
-<li>revisit ad privacy choices through the in-app privacy-options entry point when it is required, and manage your advertising ID through Android settings</li>
+<li>revisit ad privacy choices through the in-app privacy-options entry point when it is required, and manage your advertising ID through Android settings or tracking permission through iOS Settings → Privacy &amp; Security → Tracking</li>
 <li>choose whether and where to save or share a backup</li>
 <li>delete exported files and any cloud or device backups from their respective locations</li>
 <li>uninstall the app using the option that also removes app data</li>
